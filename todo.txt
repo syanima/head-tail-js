@@ -1,0 +1,18 @@
+1. Make an object takeOptionsAndfiles-->{options:[],count:[],files:[]}
+
+2. Make a function that seperate options from arguments and send other args to files.
+ eg--
+ 	["-n","2","3","fileName.js"]--->{options:["-n","2"],count:[2],files:[fileName.js]}
+
+	this function can use more other functions.
+
+3. 
+
+------------------------------------------------------------------------------------
+
+Start->
+
+1. Make different modules for each option.
+	eg->   -n module, -nd module, -c module ect.
+
+
